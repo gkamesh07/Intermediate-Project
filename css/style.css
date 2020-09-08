@@ -1,0 +1,130 @@
+html {
+    font-family: 'Public Sans', sans-serif !important;
+    font-size: 18px;
+    font-weight: 300,400,700;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif !important;
+    font-size: 18px;
+    font-weight: 300,400,700;
+}
+
+.container {
+    width: 1440px !important;
+    margin: auto !important;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+    border-image: linear-gradient(to right, hsl(136, 65%, 51%) 30%, hsl(192, 70%, 51%) 80%) 100% 0 100% 0/0px 0 3px 0;
+}
+
+.bg-light {
+    background: hsl(0, 0%, 100%) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: hsl(233, 8%, 62%) !important;
+}
+
+.text-light {
+    color: hsl(233, 26%, 24%) !important;
+}
+
+.btn-success {
+    border-radius: 30px !important;
+    border: none !important;
+    background: linear-gradient(to right,hsl(136, 62%, 46%),hsl(192, 70%, 51%)) !important;
+}
+
+.btn-success:hover {
+    background: linear-gradient(to right,hsl(136, 61%, 73%),hsl(192, 79%, 65%)) !important;
+}
+
+@media (max-width: 767px) 
+{
+    .btn
+    {
+        display: none;
+    }
+    .des-img {
+      background-image: url("../images/bg-intro-mobile.svg");
+      background-repeat: no-repeat;
+      background-size: 88%;
+      background-position: top;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+    }
+    
+}
+
+.bg-desk {
+  background-color: hsl(0, 0%, 98%) !important;
+}
+
+.bg-desk1 {
+  background-color: rgb(246, 250, 255) !important;
+}
+
+.text-primary {
+    color: hsl(220, 3%, 64%) !important;
+}
+
+.cont-img img {
+  height: auto;
+  width: 80%;
+  float: right;
+}
+
+@media (min-width:1101px){
+.container1 {
+  background: url("../images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: right top;
+  display: flex;
+  flex-direction: row-reverse !important;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+}
+
+@media (max-width: 1100px) and (min-width: 768px) {
+  .container1 {
+    background: url("../images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right top;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+
+.display-5 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.text {
+  font-size: 15px;
+}
+.text-f {
+  color: azure;
+}
+
+.bg-light-f {
+  background-color: hsl(233, 26%, 24%) !important;
+}
